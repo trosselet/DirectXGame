@@ -66,4 +66,7 @@
       <Filter>GameEngine\GraphicsEngine\DeviceContext</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader.hlsl" />
+  </ItemGroup>
 </Project>
