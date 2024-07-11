@@ -2,6 +2,7 @@
 #include <Windows.h>
 #include "Vector3D.h"
 #include "Matrix4x4.h"
+#include "InputSystem.h"
 
 struct vertex
 {
@@ -28,37 +29,37 @@ AppWindow::AppWindow()
 void AppWindow::updateQuadPosition()
 {
     constant cc;
-    cc.m_time = ::GetTickCount64();
+    cc.m_time = ::GetTickCount();
 
     m_delta_pos += m_delta_time / 10.0f;
     if (m_delta_pos > 1.0f)
         m_delta_pos = 0;
 
-    //cc.m_world.setTranslation(Vector3D::lerp(Vector3D(-1.5f, -1.5f, 0), Vector3D(1.5f, 1.5f, 0), m_delta_pos));
-    m_delta_scale += m_delta_time / 0.55f;
 
     Matrix4x4 temp;
 
+    m_delta_scale += m_delta_time / 0.55f;
+
     //cc.m_world.setScale(Vector3D::lerp(Vector3D(0.5, 0.5, 0), Vector3D(1.0f, 1.0f, 0), (sin(m_delta_scale) + 1.0f) / 2.0f));
 
-    //temp.setTranslation(Vector3D::lerp(Vector3D(-1.5f, -1.5f, 0), Vector3D(1.5f, 1.5f, 0), m_delta_pos));
+    //temp.setTranslation(Vector3D::lerp(Vector3D(-1.5f, -1.5f, 0), Vector3D(1.5f,1.5f, 0), m_delta_pos));
 
     //cc.m_world *= temp;
 
     cc.m_world.setScale(Vector3D(1, 1, 1));
 
-
     temp.setIdentity();
-    temp.setRotationZ(m_delta_scale);
+    temp.setRotationZ(0.0f);
     cc.m_world *= temp;
 
     temp.setIdentity();
-    temp.setRotationY(m_delta_scale);
+    temp.setRotationY(m_rot_y);
     cc.m_world *= temp;
 
     temp.setIdentity();
-    temp.setRotationX(m_delta_scale);
+    temp.setRotationX(m_rot_x);
     cc.m_world *= temp;
+
 
     cc.m_view.setIdentity();
     cc.m_proj.setOrthoLH
@@ -81,6 +82,9 @@ AppWindow::~AppWindow()
 void AppWindow::onCreate()
 {
     Window::onCreate();
+
+    InputSystem::get()->addListener(this);
+
     GraphicsEngine::get()->init();
     m_swap_chain = GraphicsEngine::get()->createSwapChain();
 
@@ -107,6 +111,7 @@ void AppWindow::onCreate()
     m_vb = GraphicsEngine::get()->createVertexBuffer();
     UINT size_list = ARRAYSIZE(vertex_list);
 
+
     unsigned int index_list[] =
     {
         //FRONT SIDE
@@ -129,10 +134,13 @@ void AppWindow::onCreate()
         1,0,7
     };
 
+
     m_ib = GraphicsEngine::get()->createIndexBuffer();
     UINT size_index_list = ARRAYSIZE(index_list);
 
     m_ib->load(index_list, size_index_list);
+
+
 
 
     void* shader_byte_code = nullptr;
@@ -160,6 +168,9 @@ void AppWindow::onCreate()
 void AppWindow::onUpdate()
 {
     Window::onUpdate();
+
+    InputSystem::get()->update();
+
     //CLEAR THE RENDER TARGET 
     GraphicsEngine::get()->getImmediateDeviceContext()->clearRenderTargetColor(this->m_swap_chain,
         0, 0.3f, 0.4f, 1);
@@ -185,9 +196,9 @@ void AppWindow::onUpdate()
 
     //SET THE VERTICES OF THE TRIANGLE TO DRAW
     GraphicsEngine::get()->getImmediateDeviceContext()->setVertexBuffer(m_vb);
-
-    //SET THE INDICES OF THE TRIANGLES TO DRAW
+    //SET THE INDICES OF THE TRIANGLE TO DRAW
     GraphicsEngine::get()->getImmediateDeviceContext()->setIndexBuffer(m_ib);
+
 
     // FINALLY DRAW THE TRIANGLE
     GraphicsEngine::get()->getImmediateDeviceContext()->drawIndexedTriangleList(m_ib->getSizeIndexList(), 0, 0);
@@ -210,4 +221,29 @@ void AppWindow::onDestroy()
     m_vs->release();
     m_ps->release();
     GraphicsEngine::get()->release();
+}
+
+void AppWindow::onKeyDown(int key)
+{
+    if (key == 'Z')
+    {
+        m_rot_x += 3.14f * m_delta_time;
+    }
+    else if (key == 'S')
+    {
+        m_rot_x -= 3.14f * m_delta_time;
+    }
+    else if (key == 'Q')
+    {
+        m_rot_y += 3.14f * m_delta_time;
+    }
+    else if (key == 'D')
+    {
+        m_rot_y -= 3.14f * m_delta_time;
+    }
+}
+
+void AppWindow::onKeyUp(int key)
+{
+
 }
