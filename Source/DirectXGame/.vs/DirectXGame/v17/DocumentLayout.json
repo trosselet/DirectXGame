@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\PixelShader.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|solutionrelative:DirectXGame\\PixelShader.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\VertexShader.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|solutionrelative:DirectXGame\\VertexShader.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\PixelShader.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|solutionrelative:DirectXGame\\PixelShader.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\AppWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|solutionrelative:DirectXGame\\AppWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\VertexBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|solutionrelative:DirectXGame\\VertexBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\Matrix4x4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|solutionrelative:DirectXGame\\Matrix4x4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\Vector3D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|solutionrelative:DirectXGame\\Vector3D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\AppWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|solutionrelative:DirectXGame\\AppWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\VertexBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|solutionrelative:DirectXGame\\VertexBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DB6DC0A-4A39-4AB1-9595-3EC629C7C198}|DirectXGame\\DirectXGame.vcxproj|C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\VertexShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -94,11 +102,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
+              "Title": "Matrix4x4.h",
+              "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\Matrix4x4.h",
+              "RelativeDocumentMoniker": "DirectXGame\\Matrix4x4.h",
+              "ToolTip": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\Matrix4x4.h",
+              "RelativeToolTip": "DirectXGame\\Matrix4x4.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwDAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-11T15:21:08.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vector3D.h",
+              "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\Vector3D.h",
+              "RelativeDocumentMoniker": "DirectXGame\\Vector3D.h",
+              "ToolTip": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\Vector3D.h",
+              "RelativeToolTip": "DirectXGame\\Vector3D.h",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-11T15:12:07.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ConstantBuffer.cpp",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\ConstantBuffer.cpp",
               "RelativeDocumentMoniker": "DirectXGame\\ConstantBuffer.cpp",
@@ -106,12 +140,11 @@
               "RelativeToolTip": "DirectXGame\\ConstantBuffer.cpp",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-10T19:34:17.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T19:34:17.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ConstantBuffer.h",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\ConstantBuffer.h",
               "RelativeDocumentMoniker": "DirectXGame\\ConstantBuffer.h",
@@ -119,25 +152,24 @@
               "RelativeToolTip": "DirectXGame\\ConstantBuffer.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-10T19:32:47.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T19:32:47.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PixelShader.hlsl",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\PixelShader.hlsl",
               "RelativeDocumentMoniker": "DirectXGame\\PixelShader.hlsl",
               "ToolTip": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\PixelShader.hlsl",
               "RelativeToolTip": "DirectXGame\\PixelShader.hlsl",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
               "WhenOpened": "2024-07-10T18:16:46.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "PixelShader.cpp",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\PixelShader.cpp",
               "RelativeDocumentMoniker": "DirectXGame\\PixelShader.cpp",
@@ -145,12 +177,11 @@
               "RelativeToolTip": "DirectXGame\\PixelShader.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-10T18:05:43.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T18:05:43.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "PixelShader.h",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\PixelShader.h",
               "RelativeDocumentMoniker": "DirectXGame\\PixelShader.h",
@@ -158,25 +189,24 @@
               "RelativeToolTip": "DirectXGame\\PixelShader.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-10T18:03:20.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T18:03:20.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "VertexShader.hlsl",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\VertexShader.hlsl",
               "RelativeDocumentMoniker": "DirectXGame\\VertexShader.hlsl",
               "ToolTip": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\VertexShader.hlsl",
               "RelativeToolTip": "DirectXGame\\VertexShader.hlsl",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwCsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
               "WhenOpened": "2024-07-10T16:08:47.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "VertexShader.cpp",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\VertexShader.cpp",
               "RelativeDocumentMoniker": "DirectXGame\\VertexShader.cpp",
@@ -184,12 +214,11 @@
               "RelativeToolTip": "DirectXGame\\VertexShader.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-10T15:27:36.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T15:27:36.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "VertexShader.h",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\VertexShader.h",
               "RelativeDocumentMoniker": "DirectXGame\\VertexShader.h",
@@ -197,12 +226,11 @@
               "RelativeToolTip": "DirectXGame\\VertexShader.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-10T15:27:34.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T15:27:34.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "VertexBuffer.cpp",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\VertexBuffer.cpp",
               "RelativeDocumentMoniker": "DirectXGame\\VertexBuffer.cpp",
@@ -210,12 +238,11 @@
               "RelativeToolTip": "DirectXGame\\VertexBuffer.cpp",
               "ViewState": "AQIAABcAAAAAAAAAAAAAwEIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-09T18:47:29.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T18:47:29.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "DeviceContext.cpp",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\DeviceContext.cpp",
               "RelativeDocumentMoniker": "DirectXGame\\DeviceContext.cpp",
@@ -223,12 +250,11 @@
               "RelativeToolTip": "DirectXGame\\DeviceContext.cpp",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAEEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-09T18:47:24.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T18:47:24.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "SwapChain.cpp",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\SwapChain.cpp",
               "RelativeDocumentMoniker": "DirectXGame\\SwapChain.cpp",
@@ -236,12 +262,11 @@
               "RelativeToolTip": "DirectXGame\\SwapChain.cpp",
               "ViewState": "AQIAABsAAAAAAAAAAAAAwEYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-09T18:40:05.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T18:40:05.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Window.cpp",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\Window.cpp",
               "RelativeDocumentMoniker": "DirectXGame\\Window.cpp",
@@ -259,14 +284,14 @@
               "RelativeDocumentMoniker": "DirectXGame\\AppWindow.cpp",
               "ToolTip": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\AppWindow.cpp",
               "RelativeToolTip": "DirectXGame\\AppWindow.cpp",
-              "ViewState": "AQIAAEQAAAAAAAAAAADwv10AAAAkAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-09T18:24:27.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "SwapChain.h",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\SwapChain.h",
               "RelativeDocumentMoniker": "DirectXGame\\SwapChain.h",
@@ -274,12 +299,11 @@
               "RelativeToolTip": "DirectXGame\\SwapChain.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-09T18:22:12.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T18:22:12.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "VertexBuffer.h",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\VertexBuffer.h",
               "RelativeDocumentMoniker": "DirectXGame\\VertexBuffer.h",
@@ -287,12 +311,11 @@
               "RelativeToolTip": "DirectXGame\\VertexBuffer.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-09T18:22:03.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T18:22:03.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "DeviceContext.h",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\DeviceContext.h",
               "RelativeDocumentMoniker": "DirectXGame\\DeviceContext.h",
@@ -300,25 +323,24 @@
               "RelativeToolTip": "DirectXGame\\DeviceContext.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-09T18:21:54.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T18:21:54.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppWindow.h",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\AppWindow.h",
               "RelativeDocumentMoniker": "DirectXGame\\AppWindow.h",
               "ToolTip": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\AppWindow.h",
               "RelativeToolTip": "DirectXGame\\AppWindow.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-07-09T18:21:26.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "GraphicsEngine.h",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\GraphicsEngine.h",
               "RelativeDocumentMoniker": "DirectXGame\\GraphicsEngine.h",
@@ -326,12 +348,11 @@
               "RelativeToolTip": "DirectXGame\\GraphicsEngine.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-09T18:21:14.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T18:21:14.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Window.h",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\Window.h",
               "RelativeDocumentMoniker": "DirectXGame\\Window.h",
@@ -343,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\main.cpp",
               "RelativeDocumentMoniker": "DirectXGame\\main.cpp",
@@ -351,12 +372,11 @@
               "RelativeToolTip": "DirectXGame\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-09T18:20:45.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T18:20:45.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "GraphicsEngine.cpp",
               "DocumentMoniker": "C:\\Users\\Thomas\\Desktop\\TEST GAMEENGINE\\gameEngine\\DirectXGame\\Source\\DirectXGame\\DirectXGame\\GraphicsEngine.cpp",
               "RelativeDocumentMoniker": "DirectXGame\\GraphicsEngine.cpp",
@@ -364,8 +384,7 @@
               "RelativeToolTip": "DirectXGame\\GraphicsEngine.cpp",
               "ViewState": "AQIAAEUAAAAAAAAAAAAAAGMAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-09T18:21:32.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T18:21:32.375Z"
             }
           ]
         }
