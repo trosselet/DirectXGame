@@ -35,7 +35,7 @@ void AppWindow::updateQuadPosition()
         m_delta_pos = 0;
 
     //cc.m_world.setTranslation(Vector3D::lerp(Vector3D(-1.5f, -1.5f, 0), Vector3D(1.5f, 1.5f, 0), m_delta_pos));
-    m_delta_scale += m_delta_time / 0.15f;
+    m_delta_scale += m_delta_time / 0.55f;
 
     Matrix4x4 temp;
 
@@ -47,11 +47,24 @@ void AppWindow::updateQuadPosition()
 
     cc.m_world.setScale(Vector3D(1, 1, 1));
 
+
+    temp.setIdentity();
+    temp.setRotationZ(m_delta_scale);
+    cc.m_world *= temp;
+
+    temp.setIdentity();
+    temp.setRotationY(m_delta_scale);
+    cc.m_world *= temp;
+
+    temp.setIdentity();
+    temp.setRotationX(m_delta_scale);
+    cc.m_world *= temp;
+
     cc.m_view.setIdentity();
     cc.m_proj.setOrthoLH
     (
-        (this->getClientWindowRect().right - this->getClientWindowRect().left) / 400.0f,
-        (this->getClientWindowRect().bottom - this->getClientWindowRect().top) / 400.0f,
+        (this->getClientWindowRect().right - this->getClientWindowRect().left) / 300.0f,
+        (this->getClientWindowRect().bottom - this->getClientWindowRect().top) / 300.0f,
         -4.0f,
         4.0f
     );
