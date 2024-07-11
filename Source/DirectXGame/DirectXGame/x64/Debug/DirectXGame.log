@@ -1,4 +1,13 @@
 ﻿  AppWindow.cpp
-C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\AppWindow.cpp(32,33): warning C4244: '=': conversion from 'ULONGLONG' to 'unsigned int', possible loss of data
-C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\AppWindow.cpp(43,116): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  ConstantBuffer.cpp
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\AppWindow.cpp(31,33): warning C4244: '=': conversion from 'ULONGLONG' to 'unsigned int', possible loss of data
+  DeviceContext.cpp
+  GraphicsEngine.cpp
+  IndexBuffer.cpp
+  main.cpp
+  PixelShader.cpp
+  SwapChain.cpp
+  VertexBuffer.cpp
+  VertexShader.cpp
+  Generating Code...
   DirectXGame.vcxproj -> C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\x64\Debug\DirectXGame.exe
