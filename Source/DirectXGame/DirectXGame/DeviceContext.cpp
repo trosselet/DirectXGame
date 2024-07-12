@@ -5,8 +5,9 @@
 #include "ConstantBuffer.h"
 #include "VertexShader.h"
 #include "PixelShader.h"
+#include <exception>
 
-DeviceContext::DeviceContext(ID3D11DeviceContext* device_context) :m_device_context(device_context)
+DeviceContext::DeviceContext(ID3D11DeviceContext* device_context, RenderSystem* system) : m_system(system), m_device_context(device_context)
 {
 }
 
@@ -79,13 +80,7 @@ void DeviceContext::setConstantBuffer(PixelShader* pixel_shader, ConstantBuffer*
 }
 
 
-bool DeviceContext::release()
-{
-    m_device_context->Release();
-    delete this;
-    return true;
-}
-
 DeviceContext::~DeviceContext()
 {
+    m_device_context->Release();
 }

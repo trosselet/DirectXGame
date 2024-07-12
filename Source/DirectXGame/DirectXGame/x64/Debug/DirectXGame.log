@@ -16,4 +16,33 @@ C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGam
 C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(104,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(105,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(150,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\AppWindow.cpp(185,131): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  ConstantBuffer.cpp
+  DeviceContext.cpp
+  GraphicsEngine.cpp
+  IndexBuffer.cpp
+  main.cpp
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(39,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(40,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(41,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(42,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(47,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(48,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(49,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(50,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  PixelShader.cpp
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(55,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(56,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(57,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(58,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(102,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(103,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(104,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(105,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\DirectXGame\Matrix4x4.h(150,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  RenderSystem.cpp
+  SwapChain.cpp
+  VertexBuffer.cpp
+  VertexShader.cpp
+  Generating Code...
   DirectXGame.vcxproj -> C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\x64\Debug\DirectXGame.exe
