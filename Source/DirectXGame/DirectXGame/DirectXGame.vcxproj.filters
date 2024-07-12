@@ -122,6 +122,9 @@
     <ClInclude Include="InputListener.h">
       <Filter>GameEngine\InputSysteme</Filter>
     </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>GameEngine\Math</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="PixelShader.hlsl">

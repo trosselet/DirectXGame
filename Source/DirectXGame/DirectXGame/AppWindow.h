@@ -9,6 +9,7 @@
 #include "VertexShader.h"
 #include "PixelShader.h"
 #include "InputListener.h"
+#include "Point.h"
 
 
 class AppWindow : public Window, public InputListener
@@ -24,10 +25,20 @@ public:
     virtual void onCreate() override;
     virtual void onUpdate() override;
     virtual void onDestroy() override;
+    virtual void onFocus() override;
+    virtual void onKillFocus() override;
 
     // Inherited via InputListener
     virtual void onKeyDown(int key) override;
     virtual void onKeyUp(int key) override;
+
+    void onMouseMove(const Point& delta_mouse_pos) override;
+    virtual void onLeftMouseButtonDown(const Point& delta_mouse_pos) override;
+    virtual void onLeftMouseButtonUp(const Point& delta_mouse_pos) override;
+    virtual void onRightMouseButtonDown(const Point& delta_mouse_pos) override;
+    virtual void onRightMouseButtonUp(const Point& delta_mouse_pos) override;
+
+
 private:
     SwapChain* m_swap_chain;
     VertexBuffer* m_vb;
@@ -47,5 +58,8 @@ private:
     float m_rot_x = 0.0f;
     float m_rot_y = 0.0f;
 
+    float m_scale_cube = 1;
+
+    
 
 };
