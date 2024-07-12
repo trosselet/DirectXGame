@@ -9,7 +9,7 @@
 #include "VertexShader.h"
 #include "PixelShader.h"
 #include "InputListener.h"
-#include "Point.h"
+#include "Matrix4x4.h"
 
 
 class AppWindow : public Window, public InputListener
@@ -17,7 +17,7 @@ class AppWindow : public Window, public InputListener
 public:
     AppWindow();
 
-    void updateQuadPosition();
+    void update();
 
     ~AppWindow();
 
@@ -32,7 +32,7 @@ public:
     virtual void onKeyDown(int key) override;
     virtual void onKeyUp(int key) override;
 
-    void onMouseMove(const Point& delta_mouse_pos) override;
+    void onMouseMove(const Point& mouse_pos) override;
     virtual void onLeftMouseButtonDown(const Point& delta_mouse_pos) override;
     virtual void onLeftMouseButtonUp(const Point& delta_mouse_pos) override;
     virtual void onRightMouseButtonDown(const Point& delta_mouse_pos) override;
@@ -46,6 +46,7 @@ private:
     PixelShader* m_ps;
     ConstantBuffer* m_cb;
     IndexBuffer* m_ib;
+
 private:
     long m_old_delta;
     long m_new_delta;
@@ -60,6 +61,8 @@ private:
 
     float m_scale_cube = 1;
 
-    
+    float m_forward = 0.0f;
+    float m_rightward = 0.0f;
+    Matrix4x4 m_world_cam;
 
 };
