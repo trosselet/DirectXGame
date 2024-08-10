@@ -1,8 +1,0 @@
-﻿  AppWindow.cpp
-  DeviceContext.cpp
-  GraphicsEngine.cpp
-  SwapChain.cpp
-  Window.cpp
-  main.cpp
-  Generating Code...
-  DirectXGame.vcxproj -> C:\Users\Thomas\Desktop\TEST GAMEENGINE\gameEngine\DirectXGame\Source\DirectXGame\x64\Debug\DirectXGame.exe
